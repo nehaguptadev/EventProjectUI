@@ -18,10 +18,11 @@
     text-align: center;
 }
 
-input:invalid {
+input:user-invalid{
     border: 1px solid red;
+    color:red;
 }
   
-input:valid {
+input:user-valid {
     border: 1px solid green;
 }

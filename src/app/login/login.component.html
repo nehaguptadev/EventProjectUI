@@ -8,14 +8,9 @@
 </div>
 
 <div id= "content" class="content">
-    <form action= "http://localhost:8080/helpdesk/rest/hello" method="POST">
-        <!-- First Name: <input type="text" name="firstName" class="field"> <br>
-        Last Name: <input type="text" name="lastName" class="field"> <br>
-        Mobile Number: <input type="text" name="mobile" class="field"> <br>
-        Alternate Mobile Number: <input type="text" name="altmobile" class="field"> <br> -->
-        Email Id: <input type="text" name="email" class="field"> <br>
-        Password: <input type="text" name="password" class="field"> <br><br>
-        <!-- <p> -->
+    <form id = "logInForm">
+        Email Id: <input type="email" name="email" class="field" required> <br>
+        Password: <input type="password" name="password" class="field" required> <br><br>
         <input type="submit" value="Submit">
     </form>
 </div>
