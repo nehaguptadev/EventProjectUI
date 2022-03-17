@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    const form: HTMLFormElement = document.querySelector('#signupForm');
+    const form: HTMLFormElement = document.querySelector('#logInForm');
 
     form.onsubmit = () => {
       const formData = new FormData(form);
